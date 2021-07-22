@@ -1,112 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"> <!-- jadi semua halaman ini bahasanya inggris trs kalau ada paragraf yg isinya b inggris tinggal kita kasih atribut lang nya mau diubah kebahasa apa, trs pake atribut translate no atau yes, bisa diterjemahin atau engga-->
 <head>
-	<title>Website Youtube</title>
+	<title>Website Ilhem</title>
 	<link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
-	<div class="container">
-		<header> <!-- pake header karena akan pake <nav></nav>-->
-        <div class="jumbotron">
-           <h1>My Website</h1> <!-- pake <h1></h1> karena di dalem header atau heading yg emng bener2 pertama-->
-           <p>Latihan Membuat Website Dasar Front-End.</p>
-         </div>
-           <nav> <!-- pake <nav></nav> karena akan ada yg merujuk ke sebuah article--> 
-              <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Product</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Contact</a></li>
-              </ul>
-           </nav>
-    </header>
-		<div class="gambar"></div>
-		<main>
-			<div class="content">
-				<h2>Judul Artikel</h2>
-				<p>Ditulis Oleh <a href="#">Ilhaamms </a>21/07/2021</p>
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-				
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<body>	
+	<div class="container"> 
+		<!-- kalau mau semua posisinya ada ditengah harus dikelompokan pake div kemudian margin auto, supaya maksimal, jadi jangan semua di margin 				auto-->
+		<header> <!-- Header merupakan bagian kepala/atas kertas yang terdiri dari banyak design atau tema yang dapat dipilih, biasa nya berisi judul bab, judul buku dll. -->
+			<div class="jumbotron"> <!-- ini dikelompokan karena supaya bisa bergabung sama nav -->
+				<h1 translate="no">My Website</h1>
+				<p class="p1">Latihan Membuat Website Dasar Front-End</p>
 			</div>
-			<aside class="about">
-				<h3>Tentang Penulis</h3>
-				<img src="../assets/saya.jpeg">
-				<p>Nama : Ilham Muhammad Sidiq <br>Univ  : Uhamka<br>Prodi : Informatika<br>TTL : Bekasi, 06-11-2000</p>
+			<nav lang="id" translate="no"> <!-- navigasi biasanya untuk adanya tujuan link yg mengarah masih ke content -->
+				<ul>
+					<li><a href="#artikel1">Artikel 1</a></li> <!-- pake id kaya gini supaya ke id content yg kita tuju -->
+					<li><a href="#artikel2">Artikel 2</a></li>
+					<li><a href="#artikel3">Artikel 3</a></li>
+					<li><a href="#ai">About AI</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="gambar"></div>
+		<main> <!-- main bisanya yaitu content utamanya -->
+			<div class="content" lang="id" translate="yes"> <!-- kita kelompookan semua isi content -->
+				<article id="artikel1"> <!-- article bisanya untuk isi setiap content -->
+					<h2 translate="no">Website Pribadi</h2>
+					<p>Ditulis Oleh <a href="#"> Ilhaamms</a> 21/07/2021</p>
+					<h3 translate="no">Artikel 1</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</article>
+				<article id="artikel2">
+					<h3 translate="no">Artikel 2</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</article>
+				<article id="artikel3">
+					<h3 translate="no">Artikel 3</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</article>
+				<article id="ai">
+					<h3 translate="no">Definisi AI and Function AI</h3>
+					<p>Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by humans or animals. Leading AI textbooks define the field as the study of "intelligent agents": any system that perceives its environment and takes actions that maximize its chance of achieving its goals.[a] Some popular accounts use the term "artificial intelligence" to describe machines that mimic "cognitive" functions that humans associate with the human mind, such as "learning" and "problem solving".</p>
+					<section> <!-- section untuk isi artikel yg masih bersangkutan sama si artikelnya -->
+						<h4>Automation</h4>
+						<p>Industry has often sought to leverage technology to drive productivity. So, to reduce production costs, industries have automated many repetitive activities and processes to reduce the amount of human intervention required. Machines and computers use automation to perform repetitive tasks and adapt to changes in circumstances. Automation has been widely adopted in both blue-collar and white-collar workplaces.</p>
+					</section>
+					<section>
+						<h4>Machine Vision</h4>
+						<p>Machine Vision seeks to allow computers to see. A computer captures images from a mounted camera and converts them from analog to digital (the latter can be easily analyzed). Machine Vision methods often seek to simulate the human eye. Machine Vision has various potential uses, such as signature identification and medical image analysis.</p>
+					</section>
+				</article>
+			</div>
+			<aside class="about"> <!-- kemudian aside untuk content samping tapi dia diluar dari isi content article tapi masih didalem main -->
+				<article> <!-- bisakaan didalam aside ada tag article -->
+					<figure> <!-- figure bisanya untuk foto si aside sama judulnya gtu--> 
+						<h5>Tentang Penulis</h5>
+						<img src="assets/saya.jpeg">
+						<figcaption>  <!-- figcaption bisanya isi caption si gambar atau judul tersebut -->
+							<p>Nama : Ilham Muhammad Sidiq</p>
+							<p>Univ : Uhamka</p>
+							<p>Profi : Informatika</p>
+							<p>TTL : Bekasi, 06-11-2000</p>
+						</figcaption>
+					</figure>
+				</article>
 			</aside>
 			<aside class="share">
-				<h3>Do You Like This Website ?</h3>
-				<h3>Share It!</h3>
-				<a href="https://www.facebook.com">
-					<img src="assets/facebook.png">
-					<p class="fb">Facebook</p>
-				</a>
-				<a href="https://www.instagram.com">
-					<img src="assets/instagram.png">
-					<p class="ig">Instagram</p>
-				</a>
-				<a href="https://www.twitter.com">
-					<img src="assets/twitter.png">
-					<p class="twit">Twitter</p>
-				</a>
-				<a href="https://www.linkedin.com">
-					<img src="assets/linkedin.png">
-					<p class="link">Linkedin</p>
-				</a>
+				<article>
+					<footer> <!-- pake footer soalnya kalau untuk link yg menuju share gtu pake footer -->
+						<div class="do" translate="no">
+							<h5>Do You Like This Website ?</h5>
+							<h5>Share It!</h5>
+						</div>
+						<div class="picture" translate="no">
+							<a href="https://www.facebook.com">
+								<img src="assets/facebook.png">
+								<p class="fb">Facebook</p>
+							</a>
+							<a href="https://www.instagram.com">
+								<img src="assets/instagram.png">
+								<p class="ig">Intagram</p>
+							</a>
+							<a href="https://www.twitter.com">
+								<img src="assets/twitter.png">
+								<p class="twit">Twitter</p>
+							</a>
+							<a href="https://www.linkedin.com">
+								<img src="assets/linkedin.png">
+								<p class="link">Linkedin</p>
+							</a>
+						</div>	
+					</footer>
+				</article>
 			</aside>
 		</main>
-		<footer>
+		<footer class="footer"> <!-- footer harus diluar main -->
 			<p>&#169; 2021 Ilhaamms, Bekasi</p>
 		</footer>
 	</div>
